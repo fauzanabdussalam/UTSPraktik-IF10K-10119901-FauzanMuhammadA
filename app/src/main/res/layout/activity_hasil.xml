@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HasilActivity"
+    android:padding="16dp"
+    android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineHeight="24sp"
+            android:text="Cek Kembali Isian Data"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/label_jenistest"
+            android:layout_below="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Test"
+            android:textSize="12sp"
+            android:lineHeight="14sp"
+            android:textColor="#424242"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/res_jenistest"
+            android:layout_below="@id/label_jenistest"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/drawable_hasil"
+            android:focusable="false"
+            android:hint="Masukkan Jenis Test" />
+
+        <TextView
+            android:id="@+id/label_tgl_konfirm"
+            android:layout_below="@id/res_jenistest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Terkonfirmasi"
+            android:textSize="12sp"
+            android:lineHeight="14sp"
+            android:textColor="#424242"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/res_tgl_konfirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/label_tgl_konfirm"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/drawable_hasil"
+            android:focusable="false"
+            android:hint="Masukkan Tanggal Terkonfirmasi" />
+
+        <TextView
+            android:id="@+id/label_nik"
+            android:layout_below="@id/res_tgl_konfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIK"
+            android:textSize="12sp"
+            android:lineHeight="14sp"
+            android:textColor="#424242"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/res_nik"
+            android:layout_below="@id/label_nik"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/drawable_hasil"
+            android:focusable="false"
+            android:hint="Masukkan NIK"/>
+
+        <TextView
+            android:id="@+id/label_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/res_nik"
+            android:layout_marginTop="16dp"
+            android:lineHeight="14sp"
+            android:text="Nama"
+            android:textColor="#424242"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/res_nama"
+            android:layout_below="@id/label_nama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/drawable_hasil"
+            android:layout_marginTop="8dp"
+            android:hint="Masukkan nama"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/label_tgllahir"
+            android:layout_below="@id/res_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textSize="12sp"
+            android:lineHeight="14sp"
+            android:textColor="#424242"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/res_tgllahir"
+            android:layout_below="@id/label_tgllahir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/drawable_hasil"
+            android:layout_marginTop="8dp"
+            android:hint="Pilih Tanggal Lahir"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/label_jk"
+            android:layout_below="@id/res_tgllahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="12sp"
+            android:lineHeight="14sp"
+            android:textColor="#424242"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/res_jk"
+            android:layout_below="@id/label_jk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/drawable_hasil"
+            android:layout_marginTop="8dp"
+            android:hint="Masukkan NIK"
+            android:focusable="false"
+            />
+
+        <TextView
+            android:id="@+id/label_hb"
+            android:layout_below="@id/res_jk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungan Dengan Anda"
+            android:textSize="12sp"
+            android:lineHeight="14sp"
+            android:textColor="#424242"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+                <EditText
+                    android:id="@+id/res_hb"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/label_hb"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/drawable_hasil"
+                    android:focusable="false"
+                    android:hint="Masukkan Hubungan" />
+
+                <TextView
+                    android:id="@+id/hasil_simpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/res_hb"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/drawable_button"
+                    android:backgroundTint="#16A75C"
+                    android:gravity="center"
+                    android:onClick="lanjut"
+                    android:padding="12dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Simpan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/hasil_ubah"
+                    android:layout_below="@id/hasil_simpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/drawable_button"
+                    android:gravity="center"
+                    android:onClick="balik"
+                    android:padding="12dp"
+                    android:text="Ubah"
+                    android:textAllCaps="false"
+                    android:textColor="#757575" />
+        </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTSPraktik-IF10K-10119901-FauzanMuhammadA</string>
+    <string name="form_title">Form Pengisian Data</string>
+    <string name="info">Info</string>
+    <string name="form_desc">Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan</string>
+    <string name="text_required">. Harus Diisi</string>
+    <string name="jenis_test">Jenis Test</string>
+</resources>
